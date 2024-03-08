@@ -1,0 +1,35 @@
+{
+  "name": "pinia-cli",
+  "version": "1.0.0",
+  "description": "Generate Pinia stores with ease. Simple, fast, and efficient.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlaintechLab/pinia-cli.git"
+  },
+  "keywords": [
+    "pinia-cli"
+  ],
+  "author": "PlaintechLab",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PlaintechLab/pinia-cli/issues"
+  },
+  "homepage": "https://github.com/PlaintechLab/pinia-cli#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "bin": {
+    "pinia-cli": "./dist/index.js"
+  },
+  "dependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^20.11.25",
+    "chalk": "4.1.2",
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0"
+  }
+}
